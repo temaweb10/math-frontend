@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #e7ebf0;
+}
+
+.page-content {
+  max-width: 1520px;
+  margin: 0 auto;
+}

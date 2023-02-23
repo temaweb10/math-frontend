@@ -1,14 +1,15 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import logo from "./logo.svg";
-
+import Main from "./pages/Main/Main";
+import ProgCalc from "./pages/ProgCalc/ProgCalc";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Артём и Олег</p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/prog" element={<ProgCalc />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
