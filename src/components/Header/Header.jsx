@@ -93,8 +93,15 @@ function Header() {
                 <List>
                   {[
                     { title: "Главная", path: "/" },
-                    { title: "Система счистления", path: "system/number" },
-                    { title: "Калькулятор процентов", path: "calc/procent" },
+                    {
+                      title: "Система счистления",
+                      path: "/calc/system-number",
+                    },
+                    { title: "Калькулятор процентов", path: "/calc/procent" },
+                    {
+                      title: "Калькулятор идеального веса",
+                      path: "/calc/ideal-weight",
+                    },
                   ].map((text, index) => (
                     <div
                       style={{

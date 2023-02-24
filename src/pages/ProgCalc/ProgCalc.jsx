@@ -20,11 +20,21 @@ function ProgCalc() {
     <>
       <Header />
       <div className={styles["page-content"]}>
-        <div className={styles["block-parent"]}>
+        <div className="block-parent">
+          <h2 className="page-title"> Перевод систем счисления</h2>
+          <p className="page-text">
+            Данный конвертер переводит числа между наиболее популярными
+            системами счисления: десятичной, двоичной, восьмеричной,
+            шестнадцатеричной. Система счисления - это способ представления
+            числа. Одно и то же число может быть представлено в различных видах.
+            Например, число 200 в привычной нам десятичной системе может иметь
+            вид 11001000 в двоичной системе, 310 в восьмеричной и C8 в
+            шестнадцатеричной.
+          </p>
           <Paper
             elevation={0}
             className={styles["calc-block"]}
-            style={{ width: "70%" }}
+            style={{ width: "60%" }}
           >
             <div className={styles["calc-block-left"]}>
               <TextField
