@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/math-frontend/static/css/main.32b7ae5a.css",
+    "main.js": "/math-frontend/static/js/main.4606a5e6.js",
+    "index.html": "/math-frontend/index.html",
+    "main.32b7ae5a.css.map": "/math-frontend/static/css/main.32b7ae5a.css.map",
+    "main.4606a5e6.js.map": "/math-frontend/static/js/main.4606a5e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32b7ae5a.css",
+    "static/js/main.4606a5e6.js"
+  ]
+}
