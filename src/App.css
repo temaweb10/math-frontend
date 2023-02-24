@@ -38,10 +38,19 @@
 }
 
 body {
-  background-color: #e7ebf0;
+  background-color: #fff;
 }
 
 .page-content {
   max-width: 1520px;
   margin: 0 auto;
+}
+
+.MuiDrawer-paperAnchorLeft {
+  background-color: #fff !important;
+  padding: 12px;
+}
+
+.MuiList-padding {
+  margin-bottom: 12px !important;
 }

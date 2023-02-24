@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import NotFound from "./components/NotFound/NotFound";
 import Main from "./pages/Main/Main";
 import ProgCalc from "./pages/ProgCalc/ProgCalc";
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/prog" element={<ProgCalc />} />
+        <Route path="/system/number" element={<ProgCalc />} />{" "}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
